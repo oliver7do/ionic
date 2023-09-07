@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+    <ion-app>
+        <ion-menu content-id="main-content">
+            <ion-header>
+                <ion-toolbar>
+                    <ion-title class="aa">Menu</ion-title>
+                </ion-toolbar>
+                
+                <ion-content class="ion-padding" id="liste"><ion-icon name="home-outline"></ion-icon> Accueil</ion-content>
+                <ion-content class="ion-padding" id="liste"><ion-icon name="leaf-outline"></ion-icon> Instants</ion-content>
+                <ion-content class="ion-padding" id="liste"><ion-icon name="add-circle-outline"></ion-icon> Ajouter</ion-content>
+               
+                <!-- <ion-list lines="full">
+                    <ion-item>
+                        <ion-label><ion-icon name="home-outline"></ion-icon> Accueil </ion-label>
+                    </ion-item>
+                    <ion-item>
+                        <ion-label><ion-icon name="leaf-outline"></ion-icon> Instants </ion-label>
+                    </ion-item>
+                    <ion-item>
+                        <ion-label><ion-icon name="add-circle-outline"></ion-icon> Ajouter </ion-label>
+                    </ion-item>
+            </ion-list> -->
+            </ion-header>
+
+            
+
+            
+        </ion-menu>
+
+        <div class="ion-page" id="main-content">
+            <ion-header>
+                <ion-toolbar class="bola">
+                    <ion-buttons slot="start">
+                        <ion-menu-button></ion-menu-button>
+                    </ion-buttons>
+                    <ion-title>InstantsGram<ion-icon name="camera-outline"></ion-icon></ion-title>
+                </ion-toolbar>
+            </ion-header>
+            
+            <ion-content class="ion-padding"> Bienvenue <ion-card>
+                <img alt="Silhouette of mountains" src="./images/plage.jpeg" />
+                <ion-card-header>
+                    <ion-card-subtitle>Destination Floride</ion-card-subtitle>
+                    <ion-card-title>Miami, US</ion-card-title>
+                    
+                </ion-card-header>
+            
+                <ion-card-content>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius amet at quibusdam, rerum quam dolor a alias ab? Rerum nulla voluptates fuga quam facilis. Incidunt aperiam nulla ducimus amet sint?
+                </ion-card-content>
+            </ion-card>
+
+            </ion-content>
+            <ion-footer collapse="fade">
+                <ion-toolbar>
+                    <ion-title>Copyright © InstantsGram</ion-title>
+                </ion-toolbar>
+            </ion-footer>
+         </ion-content>
+
+        </div>
+       
+        
+
+
+
+    </ion-app>
+</body>
+
+</html>
